@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
@@ -23,26 +28,25 @@
 
 /* ------ configuracao padrao do inicio da pagina ----- */
 
-header {
-    padding: 10px;
-}
+
 
 .nav-logo {
-    background-color: blue;
     padding: 10px;
 }
 
 .nav-bar {
-    background-color: aqua;
     display: flex;
     text-align: center;
     justify-content: space-around;
     align-items: center;
+    background-color: var(--cor1);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.26);
 }
 
 .nav-list {
     display: flex;
     align-items: center;
+    
 }
 
 .nav-list ul {
@@ -64,3 +68,55 @@ header {
 .login-button button {
     padding: 10px;
 }
+
+/* -------- secao inicial -------- */
+
+.secao1 {
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.div-container {
+    background-color: #2fa866;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.575);
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div-texto {
+    background-color: red;
+    max-width: 800px;
+}
+
+.div-botao {
+    padding: 20px;
+}
+
+.div-botao button {
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    border: var(--cor5);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.575);
+}
+
+.titulo {
+    font-family: var(--fonte-padrao);
+    padding: 20px;
+    font-size: 2.6rem;
+}
+
+.paragrafo {
+    font-family: var(--fonte-padrao);
+    font-size: 1.5rem;
+    padding: 20px;
+    text-indent: 50px;
+}
+
