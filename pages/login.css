@@ -78,57 +78,74 @@ a {
 /* -------- secao inicial -------- */
 
 
-
 .secao1 {
-    background-image: url(img/background-inicial.png);
+    background-image: url('../img/background.png');
     background-size: cover;
     padding: 20px;
+    height: 90vh;
+    display: flex;
     justify-content: center;
-    display: flex;
-}
-
-.div-container {
-    padding: 20px;
-    height: 85vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    text-align: center;
     align-items: center;
 }
 
-.div-texto {
-    background-color: #063d1e4b;
-    backdrop-filter: blur(05px);
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.336);
+.div-container {
+    background-color: #3b885c59;
+    backdrop-filter: blur(06px); /* deixa esfumaçado */
     border-radius: 20px;
-    max-width: 800px;
-}
-
-.div-botao {
+    box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.445);
+    height: 50vh;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 700px;
 }
 
-.div-botao button {
-    padding: 20px 30px;
-    border-radius: 20px;
-    font-size: 30px;
-    font-weight: bolder;
-    border: var(--cor5);
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.575);
+.item-login {
+    justify-content: space-between;
 }
 
-.titulo {
-    font-family: var(--fonte-padrao);
-    padding: 20px;
-    font-size: 2.6rem;
-}
-
-.paragrafo {
+.item-login p {
     font-family: var(--fonte-padrao);
     font-size: 1.5rem;
-    padding: 20px;
-    text-indent: 50px;
+    color: var(--cor4);
+    padding: 10px;
 }
+
+.botao-login {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#paragrafo-especial {
+    font-size: 1.0rem; 
+}
+
+.item-login h1 {
+    font-family: var(--fonte-padrao);
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
